@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBotswana - Free BGCSE & Form 3 Study Materials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Study<span class="logo-highlight">Botswana</span></span>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+                <a href="#subjects" class="nav-link"><i class="fas fa-book"></i> Subjects</a>
+                <a href="#past-papers" class="nav-link"><i class="fas fa-file-alt"></i> Past Papers</a>
+                <a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Free Study Resources for Botswana Students</h1>
+                <p class="hero-subtitle">Access BGCSE and Form 3 past papers, textbooks, notes, and exercise sheets - all in one place. Empowering students to excel academically.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#subjects" class="btn btn-primary">
+                        <i class="fas fa-book-open"></i> Start Learning
+                    </a>
+                    <a href="#past-papers" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Past Papers
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Past Papers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Subjects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Free</span>
+                        <span class="stat-label">Always Free</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-laptop-study"></i>
+                    <p>Mobile-friendly access for all students</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects-section">
+        <div class="container">
+            <h2 class="section-title">Browse By Level & Subject</h2>
+            <p class="section-subtitle">Select your education level to access relevant study materials</p>
+            
+            <div class="level-tabs">
+                <button class="level-tab active" data-level="bgcse">BGCSE</button>
+                <button class="level-tab" data-level="form3">Form 3</button>
+                <button class="level-tab" data-level="form2">Form 2</button>
+            </div>
+            
+            <!-- BGCSE Subjects -->
+            <div class="subjects-grid level-content active" id="bgcse-subjects">
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Mathematics</h3>
+                    <p>Past papers, worksheets, and study guides</p>
+                    <a href="subjects/mathematics.html" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Integrated Science</h3>
+                    <p>Physics, Chemistry & Biology resources</p>
+                    <a href="subjects/science.html" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>English</h3>
+                    <p>Literature, comprehension and writing guides</p>
+                    <a href="subjects/english.html" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h3>Social Studies</h3>
+                    <p>Geography, History and Development Studies</p>
+                    <a href="#" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Setswana</h3>
+                    <p>Puologo le puiso materials</p>
+                    <a href="#" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Computer Studies</h3>
+                    <p>Practical and theory resources</p>
+                    <a href="#" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Form 3 Subjects (hidden by default) -->
+            <div class="subjects-grid level-content" id="form3-subjects">
+                <!-- Similar structure for Form 3 subjects -->
+                <div class="subject-card">
+                    <div class="subject-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Form 3 Mathematics</h3>
+                    <p>Junior secondary math resources</p>
+                    <a href="#" class="subject-link">View Resources <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Add more Form 3 subjects -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Papers Section -->
+    <section id="past-papers" class="papers-section">
+        <div class="container">
+            <h2 class="section-title">Past Papers & Marking Schemes</h2>
+            <p class="section-subtitle">Download past exam papers with answers. Filter by year and subject.</p>
+            
+            <div class="filter-bar">
+                <select id="subject-filter" class="filter-select">
+                    <option value="all">All Subjects</option>
+                    <option value="maths">Mathematics</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                </select>
+                
+                <select id="year-filter" class="filter-select">
+                    <option value="all">All Years</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+                
+                <select id="level-filter" class="filter-select">
+                    <option value="all">All Levels</option>
+                    <option value="bgcse">BGCSE</option>
+                    <option value="form3">Form 3</option>
+                </select>
+            </div>
+            
+            <div class="papers-container">
+                <!-- Sample past papers will be loaded here by JavaScript -->
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading past papers...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Use StudyBotswana?</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Access all materials on any device - no app installation needed. Works perfectly on smartphones.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock-open"></i>
+                    </div>
+                    <h3>Completely Free</h3>
+                    <p>No registration, no fees, no hidden costs. Education should be accessible to all.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Easy Download</h3>
+                    <p>Download PDFs with one click. No complicated processes or waiting times.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Loading</h3>
+                    <p>Optimized for slow internet connections. Get what you need quickly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Study<span class="logo-highlight">Botswana</span></span>
+                    </div>
+                    <p class="footer-mission">Empowering Botswana students with free, accessible education resources for BGCSE and junior secondary levels.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#subjects" class="footer-link">Subjects</a>
+                    <a href="#past-papers" class="footer-link">Past Papers</a>
+                    <a href="#about" class="footer-link">About Us</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Popular Subjects</h4>
+                    <a href="subjects/mathematics.html" class="footer-link">Mathematics</a>
+                    <a href="subjects/science.html" class="footer-link">Integrated Science</a>
+                    <a href="subjects/english.html" class="footer-link">English</a>
+                    <a href="#" class="footer-link">Setswana</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> contact@studybotswana.org</p>
+                    <p><i class="fas fa-globe"></i> www.studybotswana.org</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Botswana</p>
+                    <a href="#contact" class="btn btn-outline">Submit Resources</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 StudyBotswana. All rights reserved. Made with <i class="fas fa-heart"></i> for Botswana students.</p>
+                <p>This is a prototype. Actual resources will be added in the full version.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
